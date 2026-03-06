@@ -75,3 +75,45 @@ display: flex;
 
 
 
+
+/* Mobile Responsiveness */
+@media (max-width: 768px) {
+    * {
+        box-sizing: border-box;
+    }
+
+    body {
+        overflow-x: hidden;
+        margin: 0;
+        padding: 0;
+    }
+
+    .hero {
+        height: 300px;
+        background-attachment: scroll;
+    }
+
+    .hero h1 {
+        font-size: 2.5rem;
+    }
+
+    img {
+        max-width: 100%;
+        height: auto;
+        display: block;
+        margin: 20px auto;
+    }
+
+    .container, .introduction {
+        padding: 0 15px;
+        text-align: center;
+    }
+
+    p {
+        font-size: 1rem;
+        line-height: 1.5;
+    }
+}
+
+
+
